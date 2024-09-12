@@ -162,3 +162,85 @@ header {
   line-height: 300%;
   padding-left: 5rem;
 }
+.stn-challenge {
+  text-align: center;
+}
+.stn-challenge p {
+  padding: 4rem 0;
+  width: 36rem;
+  margin: 0 auto;
+}
+.stn-challenge1,
+.stn-challenge2,
+.stn-challenge3,
+.stn-challenge4 {
+  padding: 5rem 16.8rem;
+  justify-content: space-between;
+}
+.stn-challenge-imgbox {
+  width: 45rem;
+}
+
+.stn-challenge-textbox {
+  line-height: 300%;
+  width: 47rem;
+}
+.stn-challenge-textbox h2 {
+  color: #ddd;
+}
+.stn-challenge-textbox p {
+  padding-top: 2rem;
+}
+.stn-challenge-iconbox {
+  width: 4.5rem;
+  padding: 4rem 0;
+}
+
+footer {
+  height: 70rem;
+  padding: 5rem 16.8rem;
+}
+form {
+  height: 40rem;
+}
+fieldset {
+  height: 40rem;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 10rem;
+  row-gap: 3.5rem;
+  border: none;
+}
+fieldset p {
+  width: 40rem;
+}
+.footer-iconbox {
+  width: 2.8rem;
+}
+input[type="email"] {
+  width: 65.6rem;
+  height: 8.6rem;
+  color: #757575;
+  font-family: Arial;
+  text-align: center;
+  font-size: 2.5rem;
+  border: none;
+  filter: drop-shadow(0 0 2rem #f5f5f5);
+}
+input[type="submit"] {
+  width: 25rem;
+  height: 10rem;
+  color: #fff;
+  background-color: #ff3571;
+  font-family: Arial;
+  text-align: center;
+  font-size: 2rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+.footer-bottom {
+  padding-top: 22rem;
+}
+.footer-bottom h6 {
+  font-weight: 200;
+}
