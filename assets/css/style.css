@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "roboto-regular";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "roboto-light";
+  src: url(../fonts/Roboto-Light.ttf);
+}
+html {
+  font-size: 62.5%;
+  font-family: "roboto-regular";
+}
+body {
+  max-width: 1440px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+h1 {
+  font-size: 5.4rem;
+}
+h2 {
+  font-size: 5.2rem;
+}
+h3 {
+  font-size: 3.8rem;
+}
+h4 {
+  font-size: 2.8rem;
+}
+h5 {
+  font-size: 2.4rem;
+}
+h6 {
+  font-size: 1.8rem;
+}
+p {
+  font-size: 1.4rem;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+header {
+  justify-content: space-between;
+  height: 72rem;
+}
+.logo-box {
+  width: 3.6rem;
+  position: relative;
+  position: sticky;
+  top: 0;
+}
+
+.img-rocket-box {
+  width: 3.2rem;
+  position: relative;
+  top: -8.5rem;
+  left: 40rem;
+}
+.illust-wrapper {
+  height: 72rem;
+}
+.illust-bg-box {
+  width: 79.8rem;
+}
+.illust-human-box {
+  width: 60rem;
+  position: relative;
+  top: -61rem;
+  left: 12rem;
+}
+.header-textwrapper {
+  height: 64rem;
+  width: 64rem;
+  align-self: flex-start;
+  padding: 3.8rem;
+}
+.logo-text {
+  padding-left: 1.3rem;
+  line-height: 250%;
+}
+.header-text {
+  padding-left: 13rem;
+  padding-top: 22rem;
+}
+.header-text h6 {
+  padding-top: 3rem;
+  line-height: 200%;
+}
+.header-text p {
+  padding-top: 3rem;
+  color: #ff3571;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.imgbox-lightbulb {
+  width: 6rem;
+  position: relative;
+  top: -16rem;
+  left: 17rem;
+}
+.imgbox-icons {
+  width: 3.2rem;
+  position: relative;
+  top: 4rem;
+  left: -5rem;
+}
+.stn-about {
+  padding: 25rem 16.8rem;
+  display: grid;
+  grid-template-columns: 38rem 20rem 40rem;
+  grid-template-rows: 30rem 26rem 20rem 20rem;
+  grid-template-areas:
+    "a b b"
+    "c c c"
+    "d h e"
+    "f h g";
+}
+.stn-about-box1 {
+  grid-area: a;
+}
+.stn-about-box1 h3 {
+  width: 25rem;
+}
+.stn-about-box2 {
+  grid-area: b;
+  font-family: "roboto-light";
+  line-height: 300%;
+}
+.stn-about-box3 {
+  grid-area: c;
+}
+.stn-about-box3 h3 {
+  width: 63rem;
+}
+.stn-about-box4 {
+  grid-area: d;
+  line-height: 300%;
+  padding-left: 5rem;
+}
+.stn-about-box5 {
+  grid-area: e;
+  line-height: 300%;
+  padding-left: 5rem;
+}
+.stn-about-box6 {
+  grid-area: f;
+  line-height: 300%;
+  padding-left: 5rem;
+}
+.stn-about-box7 {
+  grid-area: g;
+  line-height: 300%;
+  padding-left: 5rem;
+}
